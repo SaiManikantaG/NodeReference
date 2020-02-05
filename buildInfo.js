@@ -48,7 +48,7 @@ module.exports = function (env) {
         new ZipPlugin({
           path: path.join(__dirname, '../dist'),
           pathPrefix: '',
-          filename: `orderBatch.zip`
+          filename: `projectRepo.zip`
         })
       ],
       target: 'node',
